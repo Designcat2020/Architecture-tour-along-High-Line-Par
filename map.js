@@ -126,7 +126,7 @@ map.on('mouseleave', 'buildingData', function () {
     map.getCanvas().style.cursor = '';
 });
 
-var toggleableLayerIds = ['Produce in NYC By SunYan''sunyanarch@gmail.com'];
+var toggleableLayerIds = ['Produce in NYC By SunYan','sunyanarch@gmail.com'];
 
 for (var i = 0; i < toggleableLayerIds.length; i++) {
     var id = toggleableLayerIds[i];
