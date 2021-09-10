@@ -95,6 +95,12 @@ body {
     font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
 
+    @media (max-width:1000px){
+        .main{
+            z-index: -1;
+        }
+   }
+
 .main h1 {
     font-size :20px;
     margin:20px 5px;
